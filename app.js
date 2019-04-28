@@ -1,5 +1,4 @@
 const express = require('express');
-//const { data } = require('./data.json');
 
 const app = express();
 
@@ -9,9 +8,11 @@ app.set('view engine', 'pug');
 
 const mainRoutes = require('./routes');
 const aboutRoutes = require('./routes/about');
+const projectRoutes = require('./routes/projects');
 
 app.use(mainRoutes);
 app.use('/about', aboutRoutes);
+app.use('/projects', projectRoutes);
 
 app.use((req, res, next) => {
   const err = new Error('Not Found');

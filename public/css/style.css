@@ -1,3 +1,29 @@
+/*  Added by Jonathon */
+.project {
+    padding: 0 20px 20px 0;
+    float: left;
+}
+
+.project h5 {
+    text-align: center;
+}
+
+@media (min-width: 1130px) {
+    .project { width: 33.33%; }
+    .project h5 {
+        font-size: 95%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1129px) {
+    .project { width: 50%; }
+    .project h5 {
+        font-size: 90%;
+        text-align: center;
+    }
+}
+/* End edits */
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
