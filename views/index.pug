@@ -6,7 +6,7 @@ block content
         
       h1 My Portfolio
       
-      p.lead.text-light
+      p.op.lead.text-light
         | Please enjoy my skills through the following projects 
         
   article.grid-container.portfolio-index
@@ -15,7 +15,7 @@ block content
       
       each project in projects
           a.project(href=`/projects/${project.id}`)
-              img.thumbnail(src=`${project.image_urls[0]}`)
-              h5= project.project_name
+              img.thumbnail.box-shadow(src=`${project.image_urls[0]}`)
+              h5.op= project.project_name
          
       

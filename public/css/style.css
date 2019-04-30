@@ -1,4 +1,24 @@
 /*  Added by Jonathon */
+* {
+    border: none !important;
+}
+
+.thumbnail {
+    border-radius: 1px;
+}
+
+.jp {
+    font-family: 'Noto Serif JP', serif !important;
+}
+
+.op {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.title-bar-title {
+    padding-left: 10px;
+}
+
 .project {
     padding: 0 20px 20px 0;
     float: left;
@@ -6,6 +26,10 @@
 
 .project h5 {
     text-align: center;
+}
+
+.box-shadow {
+    box-shadow: 0px 4px 17px -7px #131313 !important;
 }
 
 @media (min-width: 1130px) {
@@ -26,29 +50,28 @@
 /* End edits */
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  font-family: 'Noto Serif JP', serif;
 }
 
-  h5{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  h5 {
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
   }
 
-  h6{
+  h6 {
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
     font-weight: 600;
   }
 
-  p{
+  p {
     font-size: 15px;
     color: #666;
   }
 
-.round{
+.round {
   border-radius: 5px;
 }
 
@@ -76,7 +99,6 @@ a:hover{
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
@@ -84,7 +106,7 @@ a:hover{
 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #131313;
   color: #fff;
   box-shadow: none !important;
 }
@@ -95,7 +117,7 @@ a:hover{
   }
 
   .portfolio-me a{
-    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #555;
     font-size: 13px;
@@ -115,7 +137,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family:  'Open Sans', sans-serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
